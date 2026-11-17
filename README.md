@@ -1,5 +1,7 @@
 # rotatelogs
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shengyanli1982/rotatelogs)
+
 cli tool: receives process output from stdin pipe, writes byte-for-byte to rotating log files. No parsing, filtering, or modification; fixed memory, near-real-time heartbeat flush; Linux / macOS / Windows.
 
 ```bash
@@ -204,3 +206,7 @@ go test ./... -covermode=atomic -coverpkg=./... -coverprofile=cover.out \
 scripts/smoke/run-all.sh   # Integration smoke tests (real binary + FIFO pipes, smoke-1~9)
 scripts/gates/run-all.sh   # Non-functional gates (memory / zero-loss / cross-platform compilation / coverage)
 ```
+
+## DeepWiki
+
+- <https://deepwiki.com/shengyanli1982/rotatelogs>

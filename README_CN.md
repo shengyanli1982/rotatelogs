@@ -1,5 +1,7 @@
 # rotatelogs
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shengyanli1982/rotatelogs)
+
 cli 工具：从 stdin 管道接收输出，逐字节透传到带轮转的日志文件。不解析、不过滤、不修改输入；固定内存，心跳实时 flush（≤2s 可见）；支持 Linux / macOS / Windows。
 
 ```bash
@@ -204,3 +206,7 @@ go test ./... -covermode=atomic -coverpkg=./... -coverprofile=cover.out \
 scripts/smoke/run-all.sh   # 集成冒烟（真实二进制 + FIFO 管道，smoke-1~9）
 scripts/gates/run-all.sh   # 非功能门禁（内存 / 零丢失 / 跨平台编译 / 覆盖率）
 ```
+
+## DeepWiki
+
+- <https://deepwiki.com/shengyanli1982/rotatelogs>
